@@ -49,6 +49,7 @@ a{
 .picto{
     width: 100px;
     padding-bottom: 10%;
+    text-align: center;
 }
 .bg-dark{
     background-color: #21251F !important;
@@ -57,6 +58,18 @@ a{
 .navbar-collapse{
     display: flex;
     flex-direction: row;
+}
+
+.nav-flex{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.nav-text{
+    display: flex;
+    justify-content: end;
+    margin-right: 2%;
 }
 
 /*Leistungen table*/
@@ -147,7 +160,7 @@ h5{
     position: relative;
     padding-left: 50%;
     white-space: normal;
-    text-align:left;
+    text-align:center;
     width: 100%;
     }
      
@@ -173,6 +186,10 @@ h5{
 
     .vorteile>*{
         flex: 1 1 30%;
+    }
+
+    h3,h5,h6{
+        text-align: center;
     }
    
     }
